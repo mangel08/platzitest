@@ -1,0 +1,31 @@
+{
+  "name": "platzitest",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias con Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangel08/platzitest.git"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "javascript"
+  ],
+  "author": "Miguelangel Palma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mangel08/platzitest/issues"
+  },
+  "homepage": "https://github.com/mangel08/platzitest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^26.4.2"
+  }
+}
