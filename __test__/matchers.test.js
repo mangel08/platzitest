@@ -1,18 +1,24 @@
 describe('Comparadores comunes', () => {
   const user = {
     name: 'Miguelangel',
-    lastName: 'Palma',
+    lastname: 'Palma',
   };
 
   const user2 = {
-    name: 'Miguelangel2',
-    lastName: 'Palma2',
+    name: 'Miguelangel',
+    lastname: 'Palma',
+  };
+
+  const user3 = {
+    name: 'Maria',
+    lastname: 'Jaramillo',
   };
 
   test('igualdad de elementos', () => {
     expect(user).toEqual(user2);
   });
+
   test('no son exactamente iguales', () => {
-    expect(user).not.toEqual(user2);
+    expect(user).not.toEqual(user3);
   });
 });
